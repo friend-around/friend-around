@@ -1,0 +1,15 @@
+{
+  "UserModel": [
+    {
+      "username": "admin",
+      "password": "7b21848ac9af35be0ddb2d6b9fc3851934db8420",
+      "email": "admin@admin.com",
+      "firstname": "Admin",
+      "lastname": "User",
+      "phone": "",
+      "active": true,
+      "confirmed": true,
+      "hasAdminRight": true
+    }
+  ]
+}
