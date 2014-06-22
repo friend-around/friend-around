@@ -58,6 +58,7 @@
   },
   "bundledDependencies": [
     "clever-orm",
-    "clever-auth"
+    "clever-auth",
+    "admin"
   ]
 }

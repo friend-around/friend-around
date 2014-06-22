@@ -16,6 +16,10 @@ require.config({
     {
       name: 'users',
       location: '../users'
+    },
+    {
+      name: 'admin',
+      location: '../admin'
     }
   ],
   paths: {

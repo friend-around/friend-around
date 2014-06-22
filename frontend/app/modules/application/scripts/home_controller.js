@@ -6,7 +6,7 @@ define(['angular', 'application'], function (ng) {
     '$scope',
     'Helpers',
     function ($scope, Helpers) {
-      $scope.welcome = 'Hello clever!';
+      $scope.welcome = 'Здесь ничего нет';
     }
 
   ]);

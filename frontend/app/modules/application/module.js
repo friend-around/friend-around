@@ -11,6 +11,7 @@ define(['angular'], function (ng) {
     'cs_common',
     'cs_session',
     'users',
+    'admin',
     'app.providers',
     'app.controllers',
     'app.services',

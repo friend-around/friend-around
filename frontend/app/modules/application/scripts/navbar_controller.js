@@ -23,35 +23,63 @@ define(['angular', 'application'], function (ng) {
         //these items appear in the navbar on the left
         "left": [
           {
-            "label": "Users",
+            "label": "Пользователи",
             "href": "/users",
             "glyph": "user",
             "requiresLogin": true,
+            "requiresAdminRights": true,
             "order": 1
+          },
+          {
+              "label": "Регионы",
+              "href": "/admin/regions",
+              "glyph": "globe",
+              "requiresLogin": true,
+              "requiresAdminRights": true,
+              "order": 2
+          },
+          {
+            "label": "Города",
+            "href": "/admin/cities",
+            "glyph": "globe",
+            "requiresLogin": true,
+            "requiresAdminRights": true,
+            "order": 3
+          },
+          {
+            "label": "Эфиры",
+            "href": "/admin/airs",
+            "glyph": "globe",
+            "requiresLogin": true,
+            "requiresAdminRights": true,
+            "order": 4
           }
         ],
 
         //these items appear on the navbar on the right
         "right": [
           {
-            "label": "Login",
+            "label": "Войти",
             "href": "/login",
             "glyph": "log-in",
             "requiresLogin": false,
+            "requiresAdminRights": false,
             "order": 1
           },
           {
-            "label": "Logout",
+            "label": "Выйти",
             "href": "/logout",
             "glyph": "log-out",
             "requiresLogin": true,
+            "requiresAdminRights": false,
             "order": 1
           },
           {
-            "label": "Register",
+            "label": "Зарегистрироваться",
             "href": "/register",
             "glyph": "list-alt",
             "requiresLogin": false,
+            "requiresAdminRights": false,
             "order": 2
           }
         ]
